@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67e5987627.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/MANOJ logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DEVELOPER</p>
+                <h1>Hi, I'm <span>Manoj Ramesh </span>,<br>From Madurai, Tamil Nadu</h1>
+            </div>
+        </div>
+    </div>
+    <!---- ------------------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/m1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm [Manoj.R], a passionate and dedicated developer with a keen interest in building
+                        impactful digital solutions. I specialize in Python, Web Development, and UI/UX Design, with
+                        hands-on experience in tools like Tkinter, MySQL, Pygame, and modern front-end technologies.
+
+                        I enjoy turning complex problems into simple, beautiful, and intuitive designs. Whether it’s
+                        developing a robust Hospital Management System, designing an engaging Food delivery app, or
+                        crafting responsive websites, I aim to deliver quality and innovation in every project.
+
+                        I’m a quick learner, a strong team player, and always eager to explore new technologies and
+                        ideas. My goal is to keep growing as a developer while contributing to meaningful projects that
+                        make a difference.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT(HTML,CSS)</span><br>Responsive, interactive design</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>PYTHON</span><br>Versatile, backend logic</li>
+                            <li><span>MY SQL</span><br>Efficient data management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>08/07/2024 - 10/08/2024</span><br>Internship for Mobile Application Development at
+                                Wizinoa</li>
+                            <li><span>18/01/2024 - 03/02/2024</span><br>Internship for Technology job simulation at
+                                deloitte</li>
+                            <li><span>22/06/2023 - 05/07/2023</span><br>Internship for Web development at WebGapp</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br> BE/CSE from Fatima Michael College Of Engineering and
+                                Technology</li>
+                            <li><span>2020 - 2021</span><br>12 th Grade from Subramaniya Bharathi Mt.Hr.Sec.School</li>
+                            <li><span>2018 - 2019</span><br>10 th Grade from Sri Sundareshwara Vidya Sala
+                                Mt.Hr.Sec.School</li>
+                            <li><span>Sep/2020 - Feb/2021</span><br>Diploma in Computer Application from Vels Institute
+                                Of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Crafting responsive and modern websites using HTML, CSS, JavaScript, and frameworks like React
+                        and Django. Ensuring clean UI, fast performance, and mobile-friendly designs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Development</h2>
+                    <p>Design and develop dynamic, secure, and scalable web applications using Python frameworks like
+                        Django and Flask. Ideal for custom dashboards, content management systems, APIs, and more.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Design modern and user-friendly mobile and web applications using Figma. From wireframes to
+                        high-fidelity prototypes, focusing on clean UI and smooth user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>Turning ideas into beautiful, easy-to-use app and website designs! I use Figma to create smooth,
+                        fun, and user-friendly experiences—from simple sketches to clickable prototypes that feel real.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/pycharm1.png">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>Developed a full-featured desktop application using Python, Tkinter, and MySQL.
+
+                            Modules include patient registration, doctor management, and
+
+                            Focused on secure login, data handling, and real-time database integration.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png">
+                    <div class="layer">
+                        <h3>Food Delivery App</h3>
+                        <p>Designed a modern and intuitive food delivery app interface.
+
+                            Prioritized mobile-first design principles with clean, user-friendly layouts.
+
+                            Tools used: Figma / Adobe XD for prototyping and user flow mapping.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work3.jpeg">
+                    <div class="layer">
+                        <h3>Virtual Mouse Using Hand Gestures</h3>
+                        <p>Created a virtual mouse system using Python, OpenCV, and Mediapipe.
+
+                            Enabled touchless control of the computer using hand gestures via webcam.
+
+                            Aimed at enhancing accessibility and hands-free interaction.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------------conctact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manojramesh2808@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6374320021</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mersal.manoj.58726"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/__m_a__n__n__u__/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-r-1b7115282/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Manoj CV-1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Messages" rows="6" placeholder="Your Messages"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Manoj <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyIzKeeA2k-PUdQauf21Tt2BMF3G5vNDYzngqXLekPf8g7Jn6z7p2qBaFXwLlEWBIsa/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
